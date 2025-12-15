@@ -6,7 +6,7 @@ on:
       - stage
     paths:
       - 'terraform/**'
-    pull_request:  // Trigger on pull requests to main branch so that changes are validated before merging
+  pull_request:  
     branches:
       - main
     paths:
